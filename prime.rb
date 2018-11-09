@@ -5,7 +5,7 @@ def prime?(n)
   else
     for i in 2..(n/2)
       if n % i == 0
-        return false #instead tit to return falseell 
+        return false
       end
     end
     true
